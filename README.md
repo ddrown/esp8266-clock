@@ -3,18 +3,18 @@
 Depends on the esp8266 Arduino environment
 
 Depends on these libraries:
-[the ESP8266 version of the ST7735 library](https://github.com/ddrown/Adafruit-ST7735-Library)
-[millisecond precision clock library](https://github.com/ddrown/Arduino_Clock)
-[Timezone library ported to ESP8266](https://github.com/ddrown/Timezone)
-[ESP8266 NTP client with millisecond precision](https://github.com/ddrown/Arduino_NTPClient)
-[rate adjustment of the local clock from offset measurements](https://github.com/ddrown/Arduino_ClockPID)
+* [the ESP8266 version of the ST7735 library](https://github.com/ddrown/Adafruit-ST7735-Library)
+* [millisecond precision clock library](https://github.com/ddrown/Arduino_Clock)
+* [Timezone library ported to ESP8266](https://github.com/ddrown/Timezone)
+* [ESP8266 NTP client with millisecond precision](https://github.com/ddrown/Arduino_NTPClient)
+* [rate adjustment of the local clock from offset measurements](https://github.com/ddrown/Arduino_ClockPID)
 
 Hardware:
 * ESP8266 - processor
 * ST7735 based LCD board
 * Custom case
 
-Pins (NodeMCU names):
+LCD/ESP8266 connections (NodeMCU names):
 
 * D5 - LCD SPI CLK
 * D7 - LCD SPI MOSI
