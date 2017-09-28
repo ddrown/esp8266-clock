@@ -15,7 +15,6 @@ Hardware:
 * Custom case
 
 LCD/ESP8266 connections (NodeMCU names):
-
 * D5 - LCD SPI CLK
 * D7 - LCD SPI MOSI
 * D8 - LCD CS
@@ -25,5 +24,7 @@ LCD/ESP8266 connections (NodeMCU names):
 * GND - LCD GND
 
 LCD + processor uses around 100mA@5V on startup, ~25mA@5V while running
+
+NTP client, should be within 10ms of true time (depending on network conditions): https://blog.dan.drown.org/binary-clock-update-2/
 
 Video: https://youtu.be/ySibjZQW1yc
