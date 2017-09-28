@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for i in `seq 0 9`; do convert -background black -fill white -font Impact -pointsize 12 -size 8x16 -gravity center label:$i f$i.png; done
+convert -background black -fill white -font Impact -pointsize 12 -size 8x16 -gravity center label:/ slash.png
+
+for i in `seq 0 9`; do convert -background black -fill white -font Impact -pointsize 24 -size 16x24 -gravity center label:$i l$i.png; done
+convert -background black -fill white -font Impact -pointsize 24 -size 16x24 -gravity center label:: colon.png
